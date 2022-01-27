@@ -595,7 +595,7 @@ section#graphic .content-header h2{
 
 @media (max-width: 649px) {
     #container-graphic {
-        max-width: 400px;
+        max-width: 300px;
     }
 }
 

@@ -11,16 +11,17 @@
 </head>
 <body>
 
-    <header>
+    <header id="header">
 
         <!-- barra de navegação start -->
 
+    <div id="header-container">
         <a class="logo" href="#">WRFRM</a>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
         <nav class="menu">
-            <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </label>
             <ul>
                 <li><a href="#">WORK</a></li>
                 <li><a href="#">SERVICE</a></li>
@@ -28,30 +29,29 @@
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
-        </nav>
+    </div>
+    </nav>
 
         <!-- barra de navegação Fim -->
 
     </header>
 
-    <!-- Conteúdo Principal inicio -->
-
     <main>
 
         <!-- Conteúdo inicial Inicio -->
 
-        <section id="main">
-            <div id="container-main">
-                <div id="content-txt-main">
-                    <h1>Sed Ut Perspiciatis <br> Unde Omnis Iste Natus</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quia rem, alias tempora accusamus doloribus maiores nobis in ducimus asperiores? Quam vitae expedita minus minima neque natus provident inventore esse.</p>
-                    <button class="btn">BUTTON</button>
-                </div>
-                <div id="content-img-main">
-                    <img src="./images/phone-400-metade.png">
-                </div>
+    <section id="main">
+        <div id="container-main">
+            <div id="content-main-txt">
+                <h1>Sed Ut Perspiciatis <br> Unde Omnis Iste Natus</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quia rem, alias tempora accusamus doloribus maiores nobis in ducimus asperiores? Quam vitae expedita minus minima neque natus provident inventore esse.</p>
+                <button class="btn">BUTTON</button>
             </div>
-        </section>
+            <div id="content-img-main">
+                <img src="./images/phone-400-metade.png">
+            </div>
+        </div>
+    </section>
 
         <!-- Conteúdo inicial Fim -->
 
@@ -59,6 +59,7 @@
         <!-- Conteúdo de Recursos Inicio -->
 
         <section id="features">
+            <div>
                 <div class="content-header">
                     <h2>Features</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, assumenda! Corporis illo suscipit fuga quae!
@@ -85,7 +86,7 @@
                     </div>
                     <div id="content-features-box">
                         <div id="content-features-boximg">
-                           <img src="./images/cicle-check-150.png">
+                            <img src="./images/cicle-check-150.png">
                         </div>
                         <div id="content-features-boxtxt">
                             <h3>Perspiciatis Unde Omnis</h3>
@@ -115,6 +116,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
         <!-- Conteúdo de Recursos Fim -->
@@ -207,10 +209,12 @@
                     <h2>Perspiciatis Unde Omnis</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit sapiente recusandae eos aspernatur aliquid</p>
                 </div>
-                <div class="content-button-area-btn">
-                    <button class="btn-transparent">BUTTON</button>
-                    <button class="btn">BUTTON</button>
-                </div>
+                    <div class="content-button-area">
+                        <div class="content-button-area-btn">
+                            <button class="btn-transparent">BUTTON</button>
+                            <button class="btn">BUTTON</button>
+                        </div>
+                    </div>
             </div>
         </section>
 
@@ -226,43 +230,43 @@
             </div>
             <div id="container-our-blog">
                 <div id="content-our-blog">
-                    <div id="content-out-blog-imgbox">
+                    <div id="content-our-blog-imgbox">
                         <img src="images/code.jpg">
                     </div>
-                    <div id="content-out-blog-txtbox">
+                    <div id="content-our-blog-txtbox">
                         <h3>Perspiciatis Unde Omnis</h3>
                         <p>by <span class="destaque">admin</span> | 19 APRIL</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure voluptate animi magnam qui id necessitatibus velit ipsum officia.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure</p>
                     </div>
                 </div>
                 <div id="content-our-blog">
-                    <div id="content-out-blog-imgbox">
+                    <div id="content-our-blog-imgbox">
                         <img src="images/code.jpg">
                     </div>
-                    <div id="content-out-blog-txtbox">
+                    <div id="content-our-blog-txtbox">
                         <h3>Perspiciatis Unde Omnis</h3>
                         <p>by <span class="destaque">admin</span> | 19 APRIL</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure voluptate animi magnam qui id necessitatibus velit ipsum officia.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure</p>
                     </div>
                 </div>
                 <div id="content-our-blog">
-                    <div id="content-out-blog-imgbox">
+                    <div id="content-our-blog-imgbox">
                         <img src="images/code.jpg">
                     </div>
-                    <div id="content-out-blog-txtbox">
+                    <div id="content-our-blog-txtbox">
                         <h3>Perspiciatis Unde Omnis</h3>
                         <p>by <span class="destaque">admin</span> | 19 APRIL</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure voluptate animi magnam qui id necessitatibus velit ipsum officia.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure</p>
                     </div>
                 </div>
                 <div id="content-our-blog">
-                    <div id="content-out-blog-imgbox">
+                    <div id="content-our-blog-imgbox">
                         <img src="images/code.jpg">
                     </div>
-                    <div id="content-out-blog-txtbox">
+                    <div id="content-our-blog-txtbox">
                         <h3>Perspiciatis Unde Omnis</h3>
                         <p>by <span class="destaque">admin</span> | 19 APRIL</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure voluptate animi magnam qui id necessitatibus velit ipsum officia.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure</p>
                     </div>
                 </div>
             </div>
@@ -278,9 +282,11 @@
                 <div class="content-button-area-txt">
                     <h2>Perspiciatis Unde Omnis</h2>
                 </div>
-                <div class="content-button-area-btn">
-                    <input id="email-input" type="text" placeholder="Your Email">
-                    <button class="btn">BUTTON</button>
+                <div class="content-button-area">
+                    <div class="content-button-area-btn2">
+                        <input id="email-input" type="text" placeholder="Your Email">
+                        <button class="btn">SUBSCRIBE</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -300,24 +306,28 @@
                     <div id="content-graphic-txtbox">
                         <h3>90%</h3>
                         <h4>Iste</h4>
+                        <div id="circle90"></div>
                     </div>
                 </div>
                 <div id="content-graphic">
                     <div id="content-graphic-txtbox">
                         <h3>85%</h3>
                         <h4>Natus</h4>
+                        <div id="circle85"></div>
                     </div>
                 </div>
                 <div id="content-graphic">
                     <div id="content-graphic-txtbox">
                         <h3>80%</h3>
                         <h4>Unde</h4>
+                        <div id="circle80"></div>
                     </div>
                 </div>
                 <div id="content-graphic">
                     <div id="content-graphic-txtbox">
                         <h3>75%</h3>
                         <h4>Omins</h4>
+                        <div id="circle75"></div>
                     </div>
                 </div>
             </div>
@@ -365,16 +375,18 @@
         <!-- Menu do Footer inicio -->
 
         <section id="footer-menu">
-            <p id="copyright" href="#">&copy;Isack Production</p>
-        <nav  class="menu">
-            <ul>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+            <div id="footer-menu-container">
+                <p id="copyright" href="#">&copy;Isack Production</p>
+                <nav class="menu">
+                <ul>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                </nav>
+            </div>
         </section>
 
         <!-- Menu do Footer Fim -->
